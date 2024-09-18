@@ -32,7 +32,7 @@ export const Column = styled.div`
 
 export const Row = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
@@ -51,14 +51,14 @@ export const Title = styled.h2`
   color: #ffffff;
   @media screen and (min-width: 768px) {
     flex-direction: row;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 44px;
     text-align: left;
     margin-bottom: 20px;
   }
 `;
 
-export const TitleLogin = styled.p`
+export const TitleCadastro = styled.p`
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
@@ -68,12 +68,11 @@ export const TitleLogin = styled.p`
   text-align: center;
 
   @media screen and (min-width: 768px) {
-    font-size: 32px;
     text-align: left;
   }
 `;
 
-export const SubtitleLogin = styled.p`
+export const SubtitleCadastro = styled.p`
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -83,27 +82,20 @@ export const SubtitleLogin = styled.p`
   text-align: center;
 
   @media screen and (min-width: 768px) {
-    font-size: 32px;
     text-align: left;
   }
 `;
 
-export const EsqueciText = styled.p`
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 19px;
-
-  color: #e5e044;
+export const CriarText = styled.p`
+  color: #23dd7a;
 `;
 
-export const CriarText = styled.p`
+export const Rodape = styled.div`
+  display: flex;
+  gap: 5px;
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
-
-  color: #23dd7a;
 `;
